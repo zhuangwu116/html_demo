@@ -145,15 +145,18 @@ s, i, em {
     height: 7px;
     overflow: hidden;
 }
+
 .site-nav-send s {
     font: 400 13px/15px "consolas";
     position: absolute;
     top: -9px;
 }
+
 .site-nav-r li {
     padding: 0 10px;
     float: left;
 }
+
 .site-nav-r .line {
     width: 1px;
     height: 12px;
