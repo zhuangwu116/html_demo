@@ -304,3 +304,32 @@ s, i, em {
 
 
 /*search-logo部分end*/
+
+/*footer部分start*/
+.footer-top-slogen {
+    width: 100%;
+    height: 54px;
+    padding: 20px 0;
+    position: relative;
+    background-color: #F5F5F5;
+}
+.footer-top-slogen-icon {
+    position: absolute;
+    left: 50%;
+}
+.footer-top-slogen-icon1 {
+    margin-left: -604px;
+}
+.footer-top-slogen-icon2 {
+    margin-left: -302px;
+}
+.footer-top-slogen-icon4 {
+    margin-left: 302px;
+}
+/*footer部分end*/
+
+/*search-logo部分start*/
+/*search-logo部分end*/
+
+/*search-logo部分start*/
+/*search-logo部分end*/
