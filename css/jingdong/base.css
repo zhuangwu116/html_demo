@@ -313,7 +313,59 @@ s, i, em {
 
 
 /*search-logo部分end*/
-
+/*shortcut-nav部分start*/
+.shortcut-nav {
+    height: 44px;
+    width: 100%;
+    border-bottom: 2px solid #B1191A;
+}
+.shortcut-nav-menu{
+    width: 210px;
+    height: 44px;
+    position: relative;
+    float: left;
+    z-index: 1;
+}
+.shortcut-nav-items{
+    width: 730px;
+    height: 44px;
+    float: left;
+}
+.shortcut-nav-items li{
+    float: left;
+}
+.shortcut-nav-items a {
+    display: inline-block;
+    height: 44px;
+    padding: 0 20px;
+    color: #333;
+    font: 400 16px/44px "微软雅黑";
+}
+.shortcut-nav-items a:hover {
+    color: #C81623;
+}
+.shortcut-nav-img {
+    width: 200px;
+    height: 44px;
+    float: right;
+}
+.shortcut-nav-menu-all a {
+    display: block;
+    width: 190px;
+    height: 44px;
+    background-color: #B1191A;
+    color: white;
+    padding: 0 10px;
+    font: 400 15px/44px "微软雅黑";
+}
+.shortcut-nav-menu-one {
+    margin-top: 2px;
+    height: 465px;
+    background-color: #C81623;
+    border-left: 1px solid #B1191A;
+    border-bottom: 1px solid #B1191A;
+}
+/*shortcut-nav部分end*/
 /*footer部分start*/
 .footer-top-slogen {
     width: 100%;
@@ -388,31 +440,7 @@ s, i, em {
 }
 /*footer部分end*/
 
-/*shortcut-nav部分start*/
-.shortcut-nav {
-    height: 44px;
-    width: 100%;
-    border-bottom: 2px solid #B1191A;
-}
-.shortcut-nav-menu{
-    width: 210px;
-    height: 44px;
-    background-color: pink;
-    float: left;
-}
-.shortcut-nav-items{
-    width: 730px;
-    height: 44px;
-    float: left;
-    background-color: blue;
-}
-.shortcut-nav-img {
-    width: 200px;
-    height: 44px;
-    float: right;
-    background-color: yellow;
-}
-/*shortcut-nav部分end*/
+
 
 /*search-logo部分start*/
 /*search-logo部分end*/
