@@ -158,6 +158,7 @@ s, i, em {
     position: absolute;
     top: -9px;
 }
+
 /*.site-nav-send s:hover, .fore s:hover {*/
 /*top: -1px;*/
 /*}*/
@@ -220,13 +221,15 @@ s, i, em {
     float: left;
     padding: 20px 0;
 }
-.search-logo a{
+
+.search-logo a {
     display: block;
     width: 270px;
     height: 60px;
     text-indent: -9999em;
     background: url("../../img/jingdong/logo.png") no-repeat;
 }
+
 .search-input {
     width: 538px;
     height: 36px;
@@ -234,6 +237,7 @@ s, i, em {
     padding-top: 25px;
 
 }
+
 .search-input input {
     float: left;
     width: 450px;
@@ -241,29 +245,32 @@ s, i, em {
     padding-left: 4px;
     border: 2px solid #B61D1D;
     font: 400 14px/32px "microsoft yahei";
-    color: rgb(153,153,153);
+    color: rgb(153, 153, 153);
     border-right: 0;
 }
+
 .search-input button {
     cursor: pointer;
-    width : 82px;
+    width: 82px;
     height: 36px;
     background-color: #B61D1D;
     color: #fff;
-    font:400 16px/36px "微软雅黑";
+    font: 400 16px/36px "微软雅黑";
 }
+
 .search-car {
-     width: 96px;
-     height: 34px;
-     float: right;
-     padding-left: 43px;
-     margin: 25px 65px 0 0;
-     line-height: 34px;
-     position: relative;
-     border: 1px solid #DFDFDF;
-     background-color: #F9F9F9;
- }
-.icon1{
+    width: 96px;
+    height: 34px;
+    float: right;
+    padding-left: 43px;
+    margin: 25px 65px 0 0;
+    line-height: 34px;
+    position: relative;
+    border: 1px solid #DFDFDF;
+    background-color: #F9F9F9;
+}
+
+.icon1 {
     position: absolute;
     top: 9px;
     left: 18px;
@@ -272,13 +279,15 @@ s, i, em {
     background: url("../../img/jingdong/tel.png") no-repeat 0 -58px;
 
 }
-.icon2{
+
+.icon2 {
     position: absolute;
     right: 10px;
     color: #999;
     font: 13px/34px "SimSun"
 }
-.icon3{
+
+.icon3 {
     position: absolute;
     top: -5px;
     /*left: 0px;*/
@@ -290,12 +299,12 @@ s, i, em {
     color: #fff;
     border-radius: 7px 7px 7px 0;
 }
+
 .search-moreAlink {
     line-height: 28px;
     width: 538px;
     height: 28px;
     float: left;
-    background-color: yellow;
 }
 
 .search-moreAlink a {
@@ -312,24 +321,98 @@ s, i, em {
     padding: 20px 0;
     position: relative;
     background-color: #F5F5F5;
+    margin-bottom: 16px;
 }
+
 .footer-top-slogen-icon {
     position: absolute;
     left: 50%;
 }
+
 .footer-top-slogen-icon1 {
     margin-left: -604px;
 }
+
 .footer-top-slogen-icon2 {
     margin-left: -302px;
 }
+
 .footer-top-slogen-icon4 {
     margin-left: 302px;
 }
+
+.footer-top-shopping dl {
+    float: left;
+    width: 200px;
+}
+.footer-top-shopping .last-dl {
+    width: 100px;
+}
+
+.footer-top-shopping dt,.coverage h3 {
+    height: 34px;
+    font: 400 16px/34px "微软雅黑";
+}
+
+.footer-top-shopping dd {
+    line-height: 20px;
+}
+.coverage {
+    width: 186px;
+    height: 169px;
+    float: right;
+    margin-right: 60px;
+    padding-left: 17px;
+    background: url("../../img/jingdong/china.png") no-repeat left bottom;
+}
+.coverage p{
+    padding-top: 8px;
+}
+.coverage a{
+    float: right;
+}
+.footer-bottom {
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px 0 30px;
+    border-top: 1px solid #E5E5E5;
+}
+.footer-bootom-links a{
+    padding: 0 10px;
+}
+.footer-bottom-copyright {
+    padding: 10px 0;
+}
+.footer-bootom-img a{
+    margin: 0 5px;
+}
 /*footer部分end*/
 
-/*search-logo部分start*/
-/*search-logo部分end*/
+/*shortcut-nav部分start*/
+.shortcut-nav {
+    height: 44px;
+    width: 100%;
+    border-bottom: 2px solid #B1191A;
+}
+.shortcut-nav-menu{
+    width: 210px;
+    height: 44px;
+    background-color: pink;
+    float: left;
+}
+.shortcut-nav-items{
+    width: 730px;
+    height: 44px;
+    float: left;
+    background-color: blue;
+}
+.shortcut-nav-img {
+    width: 200px;
+    height: 44px;
+    float: right;
+    background-color: yellow;
+}
+/*shortcut-nav部分end*/
 
 /*search-logo部分start*/
 /*search-logo部分end*/
