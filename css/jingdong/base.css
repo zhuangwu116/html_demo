@@ -348,6 +348,8 @@ s, i, em {
     width: 200px;
     height: 44px;
     float: right;
+    margin-top: -10px;
+    margin-right: 50px;
 }
 .shortcut-nav-menu-all a {
     display: block;
@@ -365,7 +367,31 @@ s, i, em {
     border-left: 1px solid #B1191A;
     border-bottom: 1px solid #B1191A;
 }
+.shortcut-nav-menu-one div {
+    height: 31px;
+    padding: 0 10px;
+    font: 400 14px/31px "microsoft yahei";
+}
+.shortcut-nav-menu-one div:hover{
+    background-color: #fff;
+}
+.shortcut-nav-menu-one div:hover a {
+    color: #B1191A;
+}
+.shortcut-nav-menu-one h3 {
+    float: left;
+}
+.shortcut-nav-menu-one a {
+    color: #fff;
+}
+
+.shortcut-nav-menu-one i {
+    float: right;
+    color: #fff;
+    font: 400 13px/31px "consolas";
+}
 /*shortcut-nav部分end*/
+
 /*footer部分start*/
 .footer-top-slogen {
     width: 100%;
